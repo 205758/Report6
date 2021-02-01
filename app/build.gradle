@@ -29,7 +29,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'jp.ac.uryukyu.ie.e205758.App'
+    mainClass = 'jp.ac.uryukyu.ie.e205758.Main'
 }
 
 tasks.named('test') {
