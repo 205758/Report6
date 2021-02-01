@@ -32,12 +32,12 @@ public class Quiz {
             }
         
     }
-    private static void Mistake() {
+    public static void Mistake() {
         System.out.println("\n\n残念不正解！！");
         System.out.println("正解は３の洪水です");
         Commentary();
     }
-    private static void Commentary() {
+    public static void Commentary() {
         System.out.println("昔の日本は、川の氾濫の対策がまだ不十分だった時があり、寝て起きたら洪水の音が聞こえてビックリ！ってことも時折起こり、そこから作られた慣用句です");    
     }
 
