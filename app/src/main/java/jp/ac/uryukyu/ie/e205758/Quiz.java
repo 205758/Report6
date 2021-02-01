@@ -11,8 +11,8 @@ public class Quiz {
         
             System.out.println("\n答えを入力してください");
             while(true){
-            String a = scan.nextLine();
-
+                String a = scan.nextLine();
+                //
                 if(a.equals("1")){
                     Mistake();
                     break;
