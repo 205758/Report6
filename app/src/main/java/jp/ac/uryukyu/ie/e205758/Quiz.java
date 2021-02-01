@@ -9,25 +9,27 @@ public class Quiz {
         
         Scanner scan = new Scanner(System.in);
         
-        while (true){
             System.out.println("\n答えを入力してください");
+            while(true){
             String a = scan.nextLine();
 
-            if(a.equals("1")){
-                Mistake();
+                if(a.equals("1")){
+                    Mistake();
+                    break;
+                }
+                else if(a.equals("2")){
+                    Mistake();
+                    break;
+                }
+                else if(a.equals("3")){
+                    System.out.println("\n\nおめでとう！大正解！！");
+                    Commentary();
+                    break;
+                }
+                else {
+                    System.out.println("\n\n１〜３の番号を入力してください");
+                }
             }
-            else if(a.equals("2")){
-                Mistake();
-            }
-            else if(a.equals("3")){
-                System.out.println("\n\nおめでとう！大正解！！");
-                Commentary();
-            }
-            else {
-                System.out.println("\n\n１〜３の番号を入力してください");
-            }
-            scan.close();
-        }
         
     }
     private static void Mistake() {
